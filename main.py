@@ -5,4 +5,4 @@ people = int(input("How many to split the bill? "))
 bill_plus_tip = total_bill + ((tip_percentage/100) * total_bill)
 share = bill_plus_tip/people
 final_share = "{:.2f}".format(share)
-print(f"Each person's share is ${final_share}")
+print(f"Each person's share is ${final_share}.")
